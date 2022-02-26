@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Animal Sound Recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"> </script>
+
+  </head>
+
+  <body>
+      <center>
+          <div style="background-color: violet; position:initial; top:0;" id="head_div">
+            <h1 style="font-family: 'Lobster', cursive ;"> Sound Controlled Animals </h1>
+            <label> It Tells Sounds like Barking, Meowing, Roaring etc. </label>
+          </div>
+
+          <div style="background-color: lavender;">
+              <br> <br>
+              <button style="width: 100px;" class="btn btn-info" id="start_btn" onclick="recognize()"> Start </button>
+             <br><br>
+             <h3 id="sound" style="font-family: 'Satisfy', cursive">  I can hear- </h3> 
+             <h3 id="accuracy" style="font-family: 'Satisfy', cursive">  Accuracy- </h3>
+             <br><br><br><br>
+             <img id="image" width="100" height="150" src="ear.png">
+             <br> <br>
+            </div>
+
+            <div id="footer"  style="background-color: lightseagreen;">
+                <br>
+                <br>
+            <h4 style="color: rgba(223, 229, 235, 0.918); font-size: 20; font-family: 'Great Vibes', cursive; text-shadow: red;" > Developed By Shivali</h4>
+            <br><br>
+            </div>
+      </center>
+  </body>
